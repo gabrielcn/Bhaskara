@@ -5,7 +5,7 @@ c=float(input("Entre com valor de c = "))
 D=(b*b)-4*a*c
 if D > 0:
     print (D)
-    x1 = -b+ (D**(1/2))/2*a
+    x1 = -b+ (D**(1/2))/(2*a)
     print("Valor x1 = ", x1)
     x2 = -b- (D**(1/2))/2*a
     print("Valor x2", x2)
